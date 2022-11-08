@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 
 import "./App.css";
 import { InspirationQuotes } from "./components/InspirationQuotes";
+import { GetAdvice } from "./components/GetADvice";
 
 function App() {
   return (
@@ -12,10 +13,15 @@ function App() {
       <Header />
       <Container
         fluid="md"
-        className="d-flex justify-content-center"
-        style={{ minHeight: "80vh" }}
+        className="d-flex flex-column flex-md-row justify-content-center align-items-center"
       >
         <ProgrammingQuotes />
+        <GetAdvice />
+      </Container>
+      <Container
+        fluid="md"
+        className="d-flex flex-column flex-md-row justify-content-center align-items-center"
+      >
         <InspirationQuotes />
       </Container>
       <Footer />

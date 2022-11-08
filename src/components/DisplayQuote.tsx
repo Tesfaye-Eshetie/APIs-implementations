@@ -7,10 +7,11 @@ type slipProps = {
   advice: string;
 };
 type randomQuoteProps = {
-  id?: string;
+  id: string;
   author: string;
-  en?: string;
-  slip?: slipProps;
+  en: string;
+  slip: slipProps;
+  quote: string;
 };
 
 export const DisplayQuote = ({
@@ -38,7 +39,7 @@ export const DisplayQuote = ({
   };
 
   return (
-    <Card style={{ width: "40rem" }}>
+    <Card style={{ width: "24rem", minHeight: "30rem" }} className="m-2">
       <Card.Img variant="top" src="./images/qoute.avif" />
       <Card.Body>
         <Card.Title>
@@ -46,7 +47,9 @@ export const DisplayQuote = ({
             ? `Author: ${randomQuote.author}`
             : "Random Advice"}
         </Card.Title>
-        <Card.Text>{randomQuote?.en || randomQuote?.slip?.advice}</Card.Text>
+        <Card.Text>
+          {randomQuote?.en || randomQuote?.quote || randomQuote?.slip?.advice}
+        </Card.Text>
         <Button
           variant="primary"
           onClick={() => {

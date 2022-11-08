@@ -20,9 +20,9 @@ export const Header = () => {
             style={{ maxHeight: "50vh" }}
             navbarScroll
           >
-            <Nav.Link href="#quote">Random Quote</Nav.Link>
-            <Nav.Link href="#results">Results</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#proquote">Programming Quote</Nav.Link>
+            <Nav.Link href="#advice">Advice</Nav.Link>
+            <Nav.Link href="#inspire">Inspiration</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
