@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
+import logo from "../assets/api-logo.png";
 
 export const Header = () => {
   return (
@@ -7,7 +8,7 @@ export const Header = () => {
         <Navbar.Brand href="#" className="ms-4">
           <img
             alt="APIs-implementations"
-            src="/api-logo.png"
+            src={logo}
             width="50"
             height="50"
             className="d-inline-block align-top"
