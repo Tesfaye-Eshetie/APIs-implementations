@@ -1,6 +1,7 @@
 import { Card, Button } from "react-bootstrap";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { DisplayImages } from "./DisplayImages";
 
 type slipProps = {
   id: string;
@@ -39,8 +40,8 @@ export const DisplayQuote = ({
   };
 
   return (
-    <Card style={{ width: "24rem", minHeight: "30rem" }} className="m-2">
-      <Card.Img variant="top" src="./images/qoute.avif" />
+    <Card style={{ width: "24rem", minHeight: "32rem" }} className="m-2">
+      <DisplayImages randomQuote={randomQuote} />
       <Card.Body>
         <Card.Title>
           {randomQuote?.author
