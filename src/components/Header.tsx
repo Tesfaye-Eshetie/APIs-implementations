@@ -7,7 +7,7 @@ export const Header = () => {
         <Navbar.Brand href="#" className="ms-4">
           <img
             alt="APIs-implementations"
-            src="/logo.png"
+            src="/api-logo.png"
             width="50"
             height="50"
             className="d-inline-block align-top"
