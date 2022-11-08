@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import Container from "react-bootstrap/Container";
 
 import "./App.css";
+import { InspirationQuotes } from "./components/InspirationQuotes";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         style={{ minHeight: "80vh" }}
       >
         <ProgrammingQuotes />
+        <InspirationQuotes />
       </Container>
       <Footer />
     </>
