@@ -11,6 +11,7 @@ type randomQuoteProps = {
   id: string;
   author: string;
   en: string;
+
   slip: slipProps;
   quote: string;
 };
