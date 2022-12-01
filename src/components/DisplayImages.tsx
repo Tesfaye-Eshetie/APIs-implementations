@@ -44,7 +44,7 @@ export const DisplayImages = ({
       variant="top"
       src={randomPhoto?.download_url}
       alt={"Random photo from picsum-api"}
-      style={{ height: "20rem" }}
+      style={{ height: "16rem" }}
     />
   );
 };

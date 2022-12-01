@@ -3,7 +3,6 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import Container from "react-bootstrap/Container";
 
-import "./App.css";
 import { InspirationQuotes } from "./components/InspirationQuotes";
 import { GetAdvice } from "./components/GetAdvice";
 

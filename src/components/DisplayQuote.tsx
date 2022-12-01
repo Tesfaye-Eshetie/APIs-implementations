@@ -41,7 +41,7 @@ export const DisplayQuote = ({
   };
 
   return (
-    <Card style={{ width: "24rem", minHeight: "32rem" }} className="m-2">
+    <Card style={{ width: "20rem", minHeight: "32rem" }} className="m-2">
       <DisplayImages randomQuote={randomQuote} />
       <Card.Body>
         <Card.Title>
