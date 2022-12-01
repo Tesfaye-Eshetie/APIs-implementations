@@ -12,7 +12,6 @@ export default defineConfig({
         theme_color: "#000000",
         background_color: "#ffffff",
         display: "standalone",
-        scope: "/",
         start_url: "/APIs-implementations/",
         name: "APIs-implementations",
         short_name: "APIs-implementations",
